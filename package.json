@@ -1,0 +1,23 @@
+{
+  "name": "project",
+  "dependencies": {
+    "he": "1.2.0",
+    "react": "18.2.0",
+    "react-confetti": "6.1.0",
+    "react-dom": "18.2.0",
+    "react-use": "17.4.0",
+    "uuid": "9.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0",
+    "babel-loader": "^7.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*",
+    "webpack": "^2.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w"
+  }
+}
